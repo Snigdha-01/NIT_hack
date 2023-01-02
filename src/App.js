@@ -7,7 +7,7 @@ import {
   Redirect,
 } from "react-router-dom";
 import about from "./components/about";
-// import home from "./components/home";
+import home from "./components/home";
 import signup from "./components/signup";
 import login from "./components/login";
 
@@ -22,6 +22,7 @@ function App() {
       <nav class="navbar navbar-light bg-transparent justify-content-between border-bottom" >
         <h1 className="h2 navbar-brand" style={{ color: 'purple' }}>CYCLOFIT</h1>
         <form class="form-inline">
+          <a class=" nav-link" href="home" style={{ color: 'purple' }}>Home<span class="sr-only">(current)</span></a>
           <a class=" nav-link" href="about" style={{ color: 'purple' }}>About-Us <span class="sr-only">(current)</span></a>
           <a class=" nav-link" href="signup" style={{ color: 'purple' }}>Sign-up<span class="sr-only">(current)</span></a>
           <a class=" nav-link" href="login" style={{ color: 'purple' }}>Login-in <span class="sr-only">(current)</span></a>
@@ -71,6 +72,8 @@ function App() {
          <Route exact path="/about" component={about} />
           <Route path="/signup" component={signup} />
           <Route path="/login" component={login} />
+        <Route path="/home" component={home} />
+
           <Redirect to="/" />
         </Switch>
       </Router>

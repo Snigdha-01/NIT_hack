@@ -5,7 +5,19 @@ import { FaHeart } from "react-icons/fa";
 
 const home = () => {
     return (<>
-        
+        {/* navbar */}
+      <div style={{  backgroundColor: '#D8BFD8' }}>
+      <nav class="navbar navbar-light bg-transparent justify-content-between border-bottom" >
+        <h1 className="h2 navbar-brand" style={{ color: 'purple' }}>CYCLOFIT</h1>
+        <form class="form-inline">
+          <a class=" nav-link" href="home" style={{ color: 'purple' }}>Home<span class="sr-only">(current)</span></a>
+          <a class=" nav-link" href="about" style={{ color: 'purple' }}>About-Us <span class="sr-only">(current)</span></a>
+          <a class=" nav-link" href="signup" style={{ color: 'purple' }}>Sign-up<span class="sr-only">(current)</span></a>
+          <a class=" nav-link" href="login" style={{ color: 'purple' }}>Login-in <span class="sr-only">(current)</span></a>
+        </form>
+      </nav>
+      </div>
+      {/* navbar */}
         <div class="container border " style={{border: '1px solid rgba(0, 0, 0, 0.05)'}}>
         <p class="h1" style={{color:"purple" , textAlign:"center"}}>Hello Cyclists</p>
             <div class="row">
@@ -13,7 +25,6 @@ const home = () => {
                     <div class="vertical-menu">
                         <a href="/" class="active">Home</a>
                         <a href="/">Blog post</a>
-                        <a href="/">Message</a>
                         <a href="/">Statistics</a>
                         <a href="/">Settings</a>
                         <a href="/">Log out</a>

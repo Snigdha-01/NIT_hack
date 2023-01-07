@@ -5,6 +5,19 @@ import { FaFacebook, FaGoogle, FaTwitter, FaGithub } from "react-icons/fa";
 const login = () => {
     return (
         <>
+            {/* navbar */}
+      <div style={{  backgroundColor: '#D8BFD8' }}>
+      <nav class="navbar navbar-light bg-transparent justify-content-between border-bottom" >
+        <h1 className="h2 navbar-brand" style={{ color: 'purple' }}>CYCLOFIT</h1>
+        <form class="form-inline">
+          <a class=" nav-link" href="home" style={{ color: 'purple' }}>Home<span class="sr-only">(current)</span></a>
+          <a class=" nav-link" href="about" style={{ color: 'purple' }}>About-Us <span class="sr-only">(current)</span></a>
+          <a class=" nav-link" href="signup" style={{ color: 'purple' }}>Sign-up<span class="sr-only">(current)</span></a>
+          <a class=" nav-link" href="login" style={{ color: 'purple' }}>Login-in <span class="sr-only">(current)</span></a>
+        </form>
+      </nav>
+      </div>
+      {/* navbar */}
             <section class="background-radial-gradient overflow-hidden mt-1">
                 <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
                     <div class="row gx-lg-5 align-items-center mb-5">
@@ -29,20 +42,7 @@ const login = () => {
                                 <div class="card-body px-4 py-5 px-md-5">
                                     <form>
 
-                                        <div class="row">
-                                            <div class="col-md-6 mb-4">
-                                                <div class="form-outline">
-                                                    <input type="text" id="form3Example1" class="form-control" placeholder="First name" />
-
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 mb-4">
-                                                <div class="form-outline">
-                                                    <input type="text" id="form3Example2" class="form-control" placeholder="Last name" />
-                                                </div>
-                                            </div>
-                                        </div>
-
+                                        <p class="h1" style={{ textAlign: "center", color: "purple" }}>Login Form</p>
 
                                         <div class="form-outline mb-4">
                                             <input type="email" id="form3Example3" class="form-control" placeholder="E-mail" />
@@ -53,10 +53,7 @@ const login = () => {
                                             <input type="password" id="form3Example4" class="form-control" placeholder="Password" />
                                         </div>
 
-                                        <button type="submit" class="btn btn-primary btn-block mb-4 mt-2">
-                                            Login 
-                                        </button>
-
+                                        <a href="/" class="btn btn-primary btn-block mb-4 mt-2" type="submit" role="button" aria-pressed="true">Login</a>
 
                                         <div class="text-center">
                                             <p>or login with:</p>
@@ -83,7 +80,6 @@ const login = () => {
                     </div>
                 </div>
             </section>
-
         </>
     );
 };

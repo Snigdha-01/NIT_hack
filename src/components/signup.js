@@ -95,6 +95,19 @@ import { FaFacebook, FaGoogle, FaTwitter, FaGithub } from "react-icons/fa";
 const signup = () => {
     return (
         <>
+        {/* navbar */}
+      <div style={{  backgroundColor: '#D8BFD8' }}>
+      <nav class="navbar navbar-light bg-transparent justify-content-between border-bottom" >
+        <h1 className="h2 navbar-brand" style={{ color: 'purple' }}>CYCLOFIT</h1>
+        <form class="form-inline">
+          <a class=" nav-link" href="home" style={{ color: 'purple' }}>Home<span class="sr-only">(current)</span></a>
+          <a class=" nav-link" href="about" style={{ color: 'purple' }}>About-Us <span class="sr-only">(current)</span></a>
+          <a class=" nav-link" href="signup" style={{ color: 'purple' }}>Sign-up<span class="sr-only">(current)</span></a>
+          <a class=" nav-link" href="login" style={{ color: 'purple' }}>Login-in <span class="sr-only">(current)</span></a>
+        </form>
+      </nav>
+      </div>
+      {/* navbar */}
       <section class="background-radial-gradient overflow-hidden mt-1">
                 <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
                     <div class="row gx-lg-5 align-items-center mb-5">

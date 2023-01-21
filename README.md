@@ -1,70 +1,39 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">CycloFit</h1>
 
-## Available Scripts
 
-In the project directory, you can run:
+<p><h2><a id="index1"></a>About The Project</h2></p>
+Cyclofit is a safety and health monitoring system for cyclists. <br><br>
+It tracks the heart rate,calories burnt, distance coverered and much more using the sensors integrated in a single device.Our device has a proximity sensor that can track 
+any incoming vehicle by monitoring it's rate of change of speed. The data such as the heart rate are displayed into the app through an api.
 
-### `npm start`
+<p><h2><a id="index2"></a>✨ Features</h2></p>
+Our website has many essential features to track and analyse the performance of a cyclist: <br><br>
+1. The Home page of our app has a timer that tracks the calories burnt in that given time. <br><br>
+2. We have a community page that allows a user to create and join a community which allows him to track everything that has been cooking in that particular community<br><br>
+3. The Health section provides the cyclists with an overview of everything that our app has to offer. There a 3 graphs in this particular section to visualise the data in a more effective manner<br><br>
+4. A leaderboard allows the user to see where he stands in comparison to his peers
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p><h2><a id="index4"></a>👨‍💻 Tech Stack</h2></p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Frontend**
+- React.js
+- Bootstrap
 
-### `npm test`
+<p><h2><a id="index7"></a>🖼Screenshots</h2></p>
+<img src="https://user-images.githubusercontent.com/90026952/213881247-03774e6f-570c-4722-bfd9-c5e3556ed4b8.jpeg">
+<img src="https://user-images.githubusercontent.com/90026952/213881251-fee53538-eb42-4fcd-8a42-4252daf5e630.jpeg">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p><h2><a id="index8"></a>🤝 Contribute</h2></p>
+<p>Contributions are always welcome! Please read the contribution.md file to start off with the contribution.</p>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p><h2><a id="index9"></a>❤ Show your support</h2></p>
+<p>Give a <g-emoji class="g-emoji" alias="star" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2b50.png">⭐️</g-emoji> if this project helped you!</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+⚒ Built by [Snigdha Thakur][linAjay] with ♥
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[MDC]:https://material.io/  
+[lottie]:https://airbnb.io/lottie/   
+[mdc]:https://material.io/develop/android
+[linAjay]:https://www.linkedin.com/in/snigdha-thakur-95b264213/
